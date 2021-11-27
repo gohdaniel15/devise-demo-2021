@@ -13,8 +13,9 @@
   </head>
 
   <body>
-    <p class="notice"><%= notice %></p>
-    <p class="alert"><%= alert %></p>
+    <%= render 'components/navbar' %>
+    <%= render 'components/flashes' %>
+
     <%= yield %>
   </body>
 </html>
